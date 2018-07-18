@@ -1,0 +1,2 @@
+# You can query AD for SQL instances which have been registered in AD with the SETSPN command.  
+"SETSPN -Q MSSQLSvc/*" checks the local domain.  "SETSPN -F -Q MSSQLSvc/*" checks the whole forest. 
